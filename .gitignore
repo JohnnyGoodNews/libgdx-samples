@@ -4,6 +4,7 @@
 
 # gradle wrapper
 .gradle/
+!gradle/wrapper/gradle-wrapper.jar
 
 # Compiled class file
 *.class
