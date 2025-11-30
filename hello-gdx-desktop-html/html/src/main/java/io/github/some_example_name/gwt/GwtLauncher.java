@@ -3,7 +3,7 @@ package io.github.some_example_name.gwt;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
-import io.github.some_example_name.Main;
+import io.github.some_example_name.Drop;
 
 /** Launches the GWT application. */
 public class GwtLauncher extends GwtApplication {
@@ -21,6 +21,6 @@ public class GwtLauncher extends GwtApplication {
 
         @Override
         public ApplicationListener createApplicationListener () {
-            return new Main();
+            return new Drop();
         }
 }
